@@ -13,7 +13,7 @@ iris = datasets.load_iris()
 entradas = iris.data
 saidas = iris.target
 
-# Rede Neural -> Tereinamento
+# Rede Neural -> Treinamento
 
 redeNeural = MLPClassifier(verbose = True, max_iter = 1300,
                            tol = 0.00001, learning_rate_init = 0.01 )
